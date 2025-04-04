@@ -22,7 +22,7 @@ const Home = () => {
 		setText(e.target.value);
 	};
 	const handleAdd = (e) => {
-		if (text.length <= 2) {
+		if (text.length <5) {
 			alert(
 				"Length of you new todo must be greater than or equal to 5 characters"
 			);
